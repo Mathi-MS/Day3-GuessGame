@@ -13,11 +13,13 @@ function userguess() {
         corw.textContent = "Right !"
         score.textContent = Number(score.textContent) + 1
         userinput.value = ""
+        corw.style.color="green"
     }
     else{
         corw.textContent = "Wrong !"
         score.textContent = Number(score.textContent) -1
         userinput.value = ""
+        corw.style.color="red"
         if(score.textContent == 0){
             alert("You lose")
             score.textContent = 10
