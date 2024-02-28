@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess-Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Guess the Number <br> 1 to 10 </h1>
+    <input type="number" id="userinput" max="10" min="1" placeholder="0">
+    <a href="javascript:void(0)" onclick="userguess()" title="guess">
+        <span>Guess</span>
+    </a>
+    <h2 >Computer Guess : <span id="computer-guess"></span></h2>
+    <h2 id="corw" >Wrong !</h2>
+    <h2>Your Score: <span id="score">10</span></h2>
+  <script src="script.js">  </script>
+</body>
+</html>
